@@ -74,6 +74,8 @@
   </mat-card>
 
   <mat-card>
-    {{ coffee | json}}
+    <button mat-raised-button (click)='cancel()'>Cancel</button>
+    <button mat-raised-button color="accent" (click)='save()'>Save</button>
+
   </mat-card>
 </form>

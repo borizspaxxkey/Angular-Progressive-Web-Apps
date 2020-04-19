@@ -40,6 +40,14 @@ export class CoffeeComponent implements OnInit, OnDestroy {
     }
   }
 
+  save() {
+
+  }
+
+  cancel() {
+
+  }
+
   ngOnDestroy(): void {
     this.routingSubscription.unsubscribe();
   }

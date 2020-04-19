@@ -14,3 +14,7 @@ mat-card-title {
 mat-slider {
   width: 100%;
 }
+
+button {
+  margin: 3px;
+}
