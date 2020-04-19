@@ -17,6 +17,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ListComponent } from './components/list/list.component';
 import { CoffeeComponent } from './components/coffee/coffee.component';
+import { FormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
 
 
 
@@ -28,16 +30,21 @@ import { CoffeeComponent } from './components/coffee/coffee.component';
     CoffeeComponent
   ],
   imports: [
+    // Angular Modules
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+
+    // Material Modules
     MatButtonModule,
     MatIconModule,
     MatSelectModule,
     MatSliderModule,
     MatToolbarModule,
     MatCardModule,
-    MatSlideToggleModule
+    MatInputModule,
+    MatSlideToggleModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
