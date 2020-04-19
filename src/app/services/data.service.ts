@@ -13,7 +13,7 @@ export class DataService {
       new Coffee('Double Espresso', 'Sunny Cafe', new PlaceLocation('123 MArket St', 'San Franciso')),
       new Coffee('Caramel Americano', 'Starcoffee', new PlaceLocation('Gran Via 34', 'Madrid'))
     ];
-    callback(list)
+    callback(list);
   }
 
   save(coffee, callback) {

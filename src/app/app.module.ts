@@ -15,12 +15,17 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { ListComponent } from './components/list/list.component';
+import { CoffeeComponent } from './components/coffee/coffee.component';
+
 
 
 // Components
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListComponent,
+    CoffeeComponent
   ],
   imports: [
     BrowserModule,
