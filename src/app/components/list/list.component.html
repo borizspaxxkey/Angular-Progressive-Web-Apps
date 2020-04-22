@@ -10,15 +10,15 @@
   </mat-card-content>
 
   <mat-card-actions>
-    <button mat-raised-button color="primary">
+    <button mat-raised-button color="primary" (click)='goMap(coffee)'>
       <mat-icon>map</mat-icon>
     </button>
 
-    <button mat-raised-button color="primary">
+    <button mat-raised-button color="primary" (click)='share(coffee)'>
       <mat-icon>share</mat-icon>
     </button>
 
-    <button mat-raised-button color="primary">
+    <button mat-raised-button color="primary" (click)='goDetails(coffee)'>
       <mat-icon>list</mat-icon>
     </button> </mat-card-actions>
 </mat-card>
