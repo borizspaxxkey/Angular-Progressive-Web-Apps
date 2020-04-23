@@ -20,6 +20,9 @@ import { ListComponent } from './components/list/list.component';
 import { CoffeeComponent } from './components/coffee/coffee.component';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 
@@ -47,6 +50,8 @@ import { MatInputModule } from '@angular/material/input';
     MatCardModule,
     MatInputModule,
     MatSlideToggleModule,
+    MatSnackBarModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]

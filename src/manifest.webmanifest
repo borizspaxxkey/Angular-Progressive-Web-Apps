@@ -1,0 +1,36 @@
+{
+  "name": "My Coffee App - The Best App For Coffee Lovers",
+  "orientation": "any",
+  "scope": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "short_name": "Coffee App",
+  "theme_color": "#472D21",
+  "background_color": "#C0B764",
+  "icons": [
+    {
+      "src": "icon_96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icon_144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
